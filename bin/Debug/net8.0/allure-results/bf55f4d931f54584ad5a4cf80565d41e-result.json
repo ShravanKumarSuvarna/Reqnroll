@@ -1,0 +1,140 @@
+{
+  "uuid": "954f0231-8f72-4d54-886b-93c581791bf1",
+  "historyId": "0c01091710958500a8d3ab80c02802ea",
+  "testCaseId": "11408c198c32c76ed2925624101680ea",
+  "fullName": "ReqnrollProject1/Features/Login/Verify login with test parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOHBQHVGGQ6SN"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with test parameters",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119649878,
+      "stop": 1749119656107
+    },
+    {
+      "name": "When User enters the \"Sudo\" and \"sudo123\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119656107,
+      "stop": 1749119656506
+    },
+    {
+      "name": "When User clicks on submitt button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119656506,
+      "stop": 1749119656552
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119656553,
+      "stop": 1749119656564
+    },
+    {
+      "name": "Then User selected city and country information",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "a3bec86e-8f3e-44ca-a718-907d9cc71514-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749119656564,
+      "stop": 1749119656588
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Sudo\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"sudo123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749119649878,
+  "stop": 1749119656607
+}

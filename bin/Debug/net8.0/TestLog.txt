@@ -4,3 +4,15 @@
 12:44:40 - Enter user inputs
 12:44:40 - Click submitt
 12:44:40 - Forwarded to HomePage and confirmed
+16:00:05 - openimg the browser
+16:00:14 - openimg the browser
+16:00:18 - openimg the browser
+16:00:24 - Enter user inputs
+16:00:25 - Click submitt
+16:00:26 - Forwarded to HomePage and confirmed
+16:03:57 - openimg the browser
+16:04:09 - openimg the browser
+16:04:10 - openimg the browser
+16:04:16 - Enter user inputs
+16:04:16 - Click submitt
+16:04:18 - Forwarded to HomePage and confirmed

@@ -207,18 +207,6 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
-      "Microsoft.Edge.SeleniumTools/3.141.3": {
-        "type": "package",
-        "dependencies": {
-          "Selenium.WebDriver": "[3.141.0]"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {}
-        }
-      },
       "Microsoft.Extensions.DependencyModel/8.0.2": {
         "type": "package",
         "compile": {
@@ -629,12 +617,12 @@
           "build/Reqnroll.targets": {}
         }
       },
-      "Reqnroll.NUnit/2.2.1": {
+      "Reqnroll.NUnit/2.4.1": {
         "type": "package",
         "dependencies": {
           "NUnit": "3.13.1",
-          "Reqnroll": "[2.2.1]",
-          "Reqnroll.Tools.MsBuild.Generation": "[2.2.1]"
+          "Reqnroll": "[2.4.1]",
+          "Reqnroll.Tools.MsBuild.Generation": "[2.4.1]"
         },
         "compile": {
           "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {}
@@ -2077,21 +2065,6 @@
         "microsoft.codecoverage.nuspec"
       ]
     },
-    "Microsoft.Edge.SeleniumTools/3.141.3": {
-      "sha512": "t20ScE4OHq7dTSU4NS4nhELJPppq7MI8bR8qvDkbfWw/bbh2BBLBBmAruJ0rARxYAT4xvBqud/ORauXfF3LpkQ==",
-      "type": "package",
-      "path": "microsoft.edge.seleniumtools/3.141.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/Microsoft.Edge.SeleniumTools.dll",
-        "lib/net40/Microsoft.Edge.SeleniumTools.dll",
-        "lib/net45/Microsoft.Edge.SeleniumTools.dll",
-        "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll",
-        "microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
-        "microsoft.edge.seleniumtools.nuspec"
-      ]
-    },
     "Microsoft.Extensions.DependencyModel/8.0.2": {
       "sha512": "mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
       "type": "package",
@@ -2637,10 +2610,10 @@
         "reqnroll.nuspec"
       ]
     },
-    "Reqnroll.NUnit/2.2.1": {
-      "sha512": "xNEj6ZNKyglOV0nk11082HJMVSSgTScpRGBEyC38o4CaRgg6SwHXf43i2wUfy423mFsHQ449+QRiw8UlHYTN2g==",
+    "Reqnroll.NUnit/2.4.1": {
+      "sha512": "IbP1uVirMVpopeRwjvtz2b0PO9oQtHcDnAQigTpZY9lxSRYBycQSYQaZ6fbkkg/mG/azkPPGV3YIjNILQ8jWrw==",
       "type": "package",
-      "path": "reqnroll.nunit/2.2.1",
+      "path": "reqnroll.nunit/2.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2652,7 +2625,7 @@
         "build/netstandard2.0/Reqnroll.NUnit.Generator.ReqnrollPlugin.dll",
         "images/reqnroll-icon.png",
         "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll",
-        "reqnroll.nunit.2.2.1.nupkg.sha512",
+        "reqnroll.nunit.2.4.1.nupkg.sha512",
         "reqnroll.nunit.nuspec"
       ]
     },
@@ -5469,11 +5442,11 @@
       "Allure.Commons >= 3.5.0.73",
       "Allure.NUnit >= 2.12.1",
       "Allure.Reqnroll >= 2.12.1",
-      "Microsoft.Edge.SeleniumTools >= 3.141.3",
       "Microsoft.NET.Test.Sdk >= 17.10.0",
       "NUnit3TestAdapter >= 4.5.0",
-      "Reqnroll.NUnit >= 2.2.1",
-      "Reqnroll.Tools.MsBuild.Generation >= *",
+      "Reqnroll >= 2.4.1",
+      "Reqnroll.NUnit >= 2.4.1",
+      "Reqnroll.Tools.MsBuild.Generation >= 2.4.1",
       "Selenium.Support >= 4.33.0",
       "Selenium.WebDriver >= 4.33.0",
       "SpecFlow.Allure >= 3.5.0.73",
@@ -5544,10 +5517,6 @@
             "target": "Package",
             "version": "[2.12.1, )"
           },
-          "Microsoft.Edge.SeleniumTools": {
-            "target": "Package",
-            "version": "[3.141.3, )"
-          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.10.0, )"
@@ -5556,14 +5525,18 @@
             "target": "Package",
             "version": "[4.5.0, )"
           },
+          "Reqnroll": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
           "Reqnroll.NUnit": {
             "target": "Package",
-            "version": "[2.2.1, )"
+            "version": "[2.4.1, )"
           },
           "Reqnroll.Tools.MsBuild.Generation": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[*, )"
+            "version": "[2.4.1, )"
           },
           "Selenium.Support": {
             "target": "Package",
@@ -5605,37 +5578,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 2.2.1 requires Reqnroll (= 2.2.1) but version Reqnroll 2.4.1 was resolved.",
-      "libraryId": "Reqnroll",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 2.2.1 requires Reqnroll.Tools.MsBuild.Generation (= 2.2.1) but version Reqnroll.Tools.MsBuild.Generation 2.4.1 was resolved.",
-      "libraryId": "Reqnroll.Tools.MsBuild.Generation",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.Edge.SeleniumTools 3.141.3 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.33.0 was resolved.",
-      "libraryId": "Selenium.WebDriver",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

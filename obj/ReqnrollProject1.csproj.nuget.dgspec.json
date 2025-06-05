@@ -63,10 +63,6 @@
               "target": "Package",
               "version": "[2.12.1, )"
             },
-            "Microsoft.Edge.SeleniumTools": {
-              "target": "Package",
-              "version": "[3.141.3, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.10.0, )"
@@ -75,14 +71,18 @@
               "target": "Package",
               "version": "[4.5.0, )"
             },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
             "Reqnroll.NUnit": {
               "target": "Package",
-              "version": "[2.2.1, )"
+              "version": "[2.4.1, )"
             },
             "Reqnroll.Tools.MsBuild.Generation": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[*, )"
+              "version": "[2.4.1, )"
             },
             "Selenium.Support": {
               "target": "Package",

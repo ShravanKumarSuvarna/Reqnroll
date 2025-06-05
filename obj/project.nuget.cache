@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XiloQwHc/MM=",
+  "dgSpecHash": "swKtveC2f/w=",
   "success": true,
   "projectFilePath": "C:\\Users\\shkum\\source\\repos\\ReqnrollProject1\\ReqnrollProject1\\ReqnrollProject1.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,6 @@
     "C:\\Users\\shkum\\.nuget\\packages\\gherkin\\30.0.0\\gherkin.30.0.0.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\google.protobuf\\3.7.0\\google.protobuf.3.7.0.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\microsoft.codecoverage\\17.10.0\\microsoft.codecoverage.17.10.0.nupkg.sha512",
-    "C:\\Users\\shkum\\.nuget\\packages\\microsoft.edge.seleniumtools\\3.141.3\\microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\microsoft.net.test.sdk\\17.10.0\\microsoft.net.test.sdk.17.10.0.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
@@ -31,7 +30,7 @@
     "C:\\Users\\shkum\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\reqnroll\\2.4.1\\reqnroll.2.4.1.nupkg.sha512",
-    "C:\\Users\\shkum\\.nuget\\packages\\reqnroll.nunit\\2.2.1\\reqnroll.nunit.2.2.1.nupkg.sha512",
+    "C:\\Users\\shkum\\.nuget\\packages\\reqnroll.nunit\\2.4.1\\reqnroll.nunit.2.4.1.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\reqnroll.tools.msbuild.generation.2.4.1.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
@@ -100,36 +99,5 @@
     "C:\\Users\\shkum\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\shkum\\.nuget\\packages\\webdrivermanager\\2.17.5\\webdrivermanager.2.17.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 2.2.1 requires Reqnroll (= 2.2.1) but version Reqnroll 2.4.1 was resolved.",
-      "libraryId": "Reqnroll",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 2.2.1 requires Reqnroll.Tools.MsBuild.Generation (= 2.2.1) but version Reqnroll.Tools.MsBuild.Generation 2.4.1 was resolved.",
-      "libraryId": "Reqnroll.Tools.MsBuild.Generation",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.Edge.SeleniumTools 3.141.3 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.33.0 was resolved.",
-      "libraryId": "Selenium.WebDriver",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -1,0 +1,140 @@
+{
+  "uuid": "374908dc-11c4-4c84-ad96-c6d9a6f49911",
+  "historyId": "aeb023a42520589458f5dbc87d610d9f",
+  "testCaseId": "11408c198c32c76ed2925624101680ea",
+  "fullName": "ReqnrollProject1/Features/Login/Verify login with test parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOHBQHVGGQ6SN"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with test parameters",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119637201,
+      "stop": 1749119643647
+    },
+    {
+      "name": "When User enters the \"Admin\" and \"admin123\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119643647,
+      "stop": 1749119643845
+    },
+    {
+      "name": "When User clicks on submitt button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119643845,
+      "stop": 1749119643963
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749119643963,
+      "stop": 1749119643969
+    },
+    {
+      "name": "Then User selected city and country information",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "940a7ad2-f459-4c75-a5d4-23802d91e0b5-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749119643970,
+      "stop": 1749119643984
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Admin\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"admin123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749119637200,
+  "stop": 1749119644051
+}

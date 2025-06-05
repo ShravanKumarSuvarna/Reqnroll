@@ -11,10 +11,10 @@
           "Allure.Commons": "3.5.0.73",
           "Allure.NUnit": "2.12.1",
           "Allure.Reqnroll": "2.12.1",
-          "Microsoft.Edge.SeleniumTools": "3.141.3",
           "Microsoft.NET.Test.Sdk": "17.10.0",
           "NUnit3TestAdapter": "4.5.0",
-          "Reqnroll.NUnit": "2.2.1",
+          "Reqnroll": "2.4.1",
+          "Reqnroll.NUnit": "2.4.1",
           "Reqnroll.Tools.MsBuild.Generation": "2.4.1",
           "Selenium.Support": "4.33.0",
           "Selenium.WebDriver": "4.33.0",
@@ -156,17 +156,6 @@
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "17.1000.424.16205"
-          }
-        }
-      },
-      "Microsoft.Edge.SeleniumTools/3.141.3": {
-        "dependencies": {
-          "Selenium.WebDriver": "4.33.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {
-            "assemblyVersion": "3.141.3.0",
-            "fileVersion": "3.141.3.0"
           }
         }
       },
@@ -485,7 +474,7 @@
           }
         }
       },
-      "Reqnroll.NUnit/2.2.1": {
+      "Reqnroll.NUnit/2.4.1": {
         "dependencies": {
           "NUnit": "3.14.0",
           "Reqnroll": "2.4.1",
@@ -1151,13 +1140,6 @@
       "path": "microsoft.codecoverage/17.10.0",
       "hashPath": "microsoft.codecoverage.17.10.0.nupkg.sha512"
     },
-    "Microsoft.Edge.SeleniumTools/3.141.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-t20ScE4OHq7dTSU4NS4nhELJPppq7MI8bR8qvDkbfWw/bbh2BBLBBmAruJ0rARxYAT4xvBqud/ORauXfF3LpkQ==",
-      "path": "microsoft.edge.seleniumtools/3.141.3",
-      "hashPath": "microsoft.edge.seleniumtools.3.141.3.nupkg.sha512"
-    },
     "Microsoft.Extensions.DependencyModel/8.0.2": {
       "type": "package",
       "serviceable": true,
@@ -1249,12 +1231,12 @@
       "path": "reqnroll/2.4.1",
       "hashPath": "reqnroll.2.4.1.nupkg.sha512"
     },
-    "Reqnroll.NUnit/2.2.1": {
+    "Reqnroll.NUnit/2.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xNEj6ZNKyglOV0nk11082HJMVSSgTScpRGBEyC38o4CaRgg6SwHXf43i2wUfy423mFsHQ449+QRiw8UlHYTN2g==",
-      "path": "reqnroll.nunit/2.2.1",
-      "hashPath": "reqnroll.nunit.2.2.1.nupkg.sha512"
+      "sha512": "sha512-IbP1uVirMVpopeRwjvtz2b0PO9oQtHcDnAQigTpZY9lxSRYBycQSYQaZ6fbkkg/mG/azkPPGV3YIjNILQ8jWrw==",
+      "path": "reqnroll.nunit/2.4.1",
+      "hashPath": "reqnroll.nunit.2.4.1.nupkg.sha512"
     },
     "Reqnroll.Tools.MsBuild.Generation/2.4.1": {
       "type": "package",
