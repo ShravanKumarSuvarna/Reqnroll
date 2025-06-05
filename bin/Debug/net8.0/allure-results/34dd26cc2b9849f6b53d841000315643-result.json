@@ -1,0 +1,108 @@
+{
+  "uuid": "99203a74-4865-4588-bced-ed45e10b341c",
+  "historyId": "22e957b70e6bfadb63ace195ffc6405c",
+  "testCaseId": "ce8c3a8446d08f82d0b55943bfae6bad",
+  "fullName": "ReqnrollProject1/Features/Form/Fill and submit the test form",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOHBQHVGGQ6SN"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Form"
+    },
+    {
+      "name": "feature",
+      "value": "Form"
+    }
+  ],
+  "links": [],
+  "name": "Fill and submit the test form",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given I am on the Student Registration Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106413544,
+      "stop": 1749106418183
+    },
+    {
+      "name": "When I fill the form with:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "a0515c62-0136-4b09-8bf7-926c96fe64f8-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749106418193,
+      "stop": 1749106419645
+    },
+    {
+      "name": "When I submit the registration form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106419645,
+      "stop": 1749106421894
+    },
+    {
+      "name": "Then the form should be submitted successfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106421894,
+      "stop": 1749106424959
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749106413538,
+  "stop": 1749106424962
+}

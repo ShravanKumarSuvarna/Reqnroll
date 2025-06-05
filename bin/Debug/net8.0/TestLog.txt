@@ -1,0 +1,6 @@
+12:44:21 - openimg the browser
+12:44:33 - openimg the browser
+12:44:33 - openimg the browser
+12:44:40 - Enter user inputs
+12:44:40 - Click submitt
+12:44:40 - Forwarded to HomePage and confirmed
